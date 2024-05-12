@@ -4,6 +4,7 @@ import streamlit as st
 
 from video_utils import save_clip, convert_time, merge_videos
 
+st.set_page_config(page_title='My App', page_icon=':shark:', initial_sidebar_state='auto', max_upload_size=500)
 
 def main():
     st.title('Aplikacioni i procesimit te videove')
